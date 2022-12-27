@@ -1,0 +1,91 @@
+::-webkit-scrollbar {
+    width: 1px;
+    color: transparent;
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    background-clip: content-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+.bd{
+    border: 5px solid  #483D8B;
+}
+body{
+    background: url(/asset/img/Aurora\ -\ 61.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.contain{
+    width: 100%;
+    height: 100%;
+}
+.category{
+    background-color: rgba(137, 43, 226, 0.285);
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+}
+.cate-item{
+    padding: 0 20px;
+}
+.cate-item:hover{
+    cursor: pointer;
+    background-color: rgba(204, 204, 204, 0.21);
+    color:gold;
+}
+.quiz-list{
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    padding: 0px 40px;
+    margin-top: 10vh;
+    row-gap: 50px;
+}
+.quiz-item{
+    width: 180px;
+    height: 20vh;
+    border-radius: 10px;
+    margin: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quiz-ques{
+    width: 100%;
+    height: 70%;
+    padding-top: 20px;
+}
+.quiz-ques h1{
+    font-size: 50px;
+    text-align: center;
+}
+input{
+    width: 80%;
+    height: 30%;
+    font-size: 50px;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    
+    background-color: rgba(204, 204, 204, 0.489);
+}
+footer h1{
+    text-align: center;
+    padding: 50px 0px;
+}
